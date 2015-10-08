@@ -35,19 +35,9 @@
 #include <stdint.h>
 
 /* DLL */
-#if O8_IS_MINGW
-
 #define DLL_EXPORT __declspec(dllexport)
 
 #define DLL_IMPORT __declspec(dllimport)
-
-#else /* O8_IS_MINGW */
-
-#define DLL_EXPORT __declspec(dllexport)
-
-#define DLL_IMPORT __declspec(dllimport)
-
-#endif /* O8_IS_MINGW */
 
 /* Typedefs */
 namespace Platform

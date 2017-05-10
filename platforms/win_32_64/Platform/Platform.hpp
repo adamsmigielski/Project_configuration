@@ -51,6 +51,8 @@ namespace Platform
     typedef unsigned int uint;
     typedef int64_t      int64;
     typedef uint64_t     uint64;
+
+    typedef void(*proc_t)(void);
 }
 
 #endif /* UTILITIES_PLATFORMS_WIN_32_64_PLATFORM_HPP */
